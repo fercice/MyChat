@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{42E68C06-341A-4669-9AC7-E2F6280009C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{6AD46E05-19B9-4466-8FD4-910255613812}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyChat.Presentation.Server", "MyChat.Presentation.Server\MyChat.Presentation.Server.csproj", "{11A322D6-6F94-48D9-BB93-14AFCE51419D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyChat.Presentation.Client", "MyChat.Presentation.Client\MyChat.Presentation.Client.csproj", "{AB7FE318-8E4A-4014-B4E2-6D4D02F1DBE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyChat.Domain", "MyChat.Domain\MyChat.Domain.csproj", "{3791FB55-93F0-490A-9EBE-C7FABFDAF519}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Tests", "3 - Tests", "{00A1F4DB-76CB-45F2-941E-7E090ED689E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyChat.Test", "MyChat.Test\MyChat.Test.csproj", "{8580FE9D-4CA0-4951-B4CA-33B2491C1579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11A322D6-6F94-48D9-BB93-14AFCE51419D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A322D6-6F94-48D9-BB93-14AFCE51419D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A322D6-6F94-48D9-BB93-14AFCE51419D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A322D6-6F94-48D9-BB93-14AFCE51419D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7FE318-8E4A-4014-B4E2-6D4D02F1DBE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7FE318-8E4A-4014-B4E2-6D4D02F1DBE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7FE318-8E4A-4014-B4E2-6D4D02F1DBE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7FE318-8E4A-4014-B4E2-6D4D02F1DBE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3791FB55-93F0-490A-9EBE-C7FABFDAF519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3791FB55-93F0-490A-9EBE-C7FABFDAF519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3791FB55-93F0-490A-9EBE-C7FABFDAF519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3791FB55-93F0-490A-9EBE-C7FABFDAF519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8580FE9D-4CA0-4951-B4CA-33B2491C1579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8580FE9D-4CA0-4951-B4CA-33B2491C1579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8580FE9D-4CA0-4951-B4CA-33B2491C1579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8580FE9D-4CA0-4951-B4CA-33B2491C1579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11A322D6-6F94-48D9-BB93-14AFCE51419D} = {42E68C06-341A-4669-9AC7-E2F6280009C2}
+		{AB7FE318-8E4A-4014-B4E2-6D4D02F1DBE9} = {42E68C06-341A-4669-9AC7-E2F6280009C2}
+		{3791FB55-93F0-490A-9EBE-C7FABFDAF519} = {6AD46E05-19B9-4466-8FD4-910255613812}
+		{8580FE9D-4CA0-4951-B4CA-33B2491C1579} = {00A1F4DB-76CB-45F2-941E-7E090ED689E5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20DA766D-261A-4207-9469-57AF46AF3E7B}
+	EndGlobalSection
+EndGlobal
