@@ -6,12 +6,6 @@ Chat simples em tempo real baseada em WebSocket implementado em .NET Core
 
 * .Net Core 3.1
 
-### Arquitetura
-
-* Arquitetura CQRS
-
-* Dependency Injection (DI)
-
 ### Como executar
 
 * Faça o build na Solution para construir e baixar os pacotes
